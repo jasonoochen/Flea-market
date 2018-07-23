@@ -1,5 +1,4 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react' 
+import ReactDOM from 'react-dom' 
 import {Button} from 'antd-mobile'
-
-ReactDOM.render(<Button>Test</Button>, document.getElementById('root'))
+ReactDOM.render( <Button type='primary'>test</Button>, document.getElementById('root') )
