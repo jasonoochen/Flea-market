@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd-mobile": "^2.2.2",
+    "npm": "^6.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
@@ -16,6 +17,8 @@
   },
   "devDependencies": {
     "babel-plugin-import": "^1.8.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.1.0",
     "react-app-rewired": "^1.5.2"
   }
 }
