@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/fleamarket')
+mongoose.connect('mongodb://localhost:27017/fleamarket', { useNewUrlParser: true })
 const conn = mongoose.connection
 conn.on('connected', function(){
     console.log('db connect success')

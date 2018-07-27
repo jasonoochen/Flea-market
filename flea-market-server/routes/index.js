@@ -21,7 +21,7 @@ const UserModel = require('../db/models').UserModel
 const filter = {password : 0}
 
 //register router
-router.post('./register', function(req, res){
+router.post('/register', function(req, res){
   const {username, password, type} = req.body
   UserModel.findOne({username}, function (err, user) { 
     if(user) { 
