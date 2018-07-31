@@ -4,7 +4,6 @@ const conn = mongoose.connection
 conn.on('connected', function(){
     console.log('db connect success')
 }) 
-
 const userSchema = mongoose.Schema({
     username: {type: String, required: true},
     password: {type: String, required: true},
